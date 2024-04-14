@@ -1,2 +1,2 @@
 # Chess-Game
-Chess-Game with a DevOps Touch
+Chess Game with a DevOps Touch
