@@ -23,5 +23,5 @@ jobs:
         run: |
           DATE=$(date +%Y-%m-%d)
           TIME=$(date +%H)
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/Chess-Game:${DATE}-${TIME} .
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/Chess-Game:${DATE}-${TIME}
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/chess-Game:${DATE}-${TIME} .
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/chess-Game:${DATE}-${TIME}
