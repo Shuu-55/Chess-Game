@@ -9,4 +9,4 @@ COPY demo.png /usr/share/nginx/html/
 COPY demo2.PNG /usr/share/nginx/html/
 
 # Expose the default HTTP port
-EXPOSE 80
+EXPOSE 3000
